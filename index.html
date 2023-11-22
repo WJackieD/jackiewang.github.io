@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Ding Wang - Personal Website</title>
+    <link href="./favicon.ico" rel="icon" type="image/x-icon">
+    <link href="./favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
+    <script src="mouseInteraction.js"></script>
+
+  <link rel="shortcut icon" href="favicon.ico"><link href="app.css" rel="stylesheet"></head>
+  <body>
+<div class="header"><a class="logo" href=""></a>
+  <ul class="content">
+    <li>
+      <div class="left-bar">|</div><a href="#creative-coding">CREATIVE CODING</a>
+    </li>
+    <li>
+      <div class="left-bar">|</div><a href="#installation">INSTALLATION</a>
+    </li>
+    <li>
+      <div class="left-bar">|</div><a href="#architecture">ARCHITECTURE</a>
+    </li>
+    <li>
+      <div class="left-bar">|</div><a href="#about-me">ABOUT ME</a>
+    </li>
+  </ul>
+  <div class="top-line"></div>
+  <div class="bottom-line"></div>
+  <div class="left-line"> </div>
+  <div class="right-line"></div>
+  <div class="intro-part">@ 2021 <br> Ding's Personal Website</div>
+  <div class="bgmPlayer">
+    <div class="on-off">music off</div>
+    <audio class="myBGM" loop muted>
+      <source src="../audios/bgm.mp3" type="audio/mp3">
+    </audio>
+    <button class="bgmButton"></button>
+  </div>
+  <div class="mobile-nav-toggle"><span></span></div>
+</div>
+<div class="mobile-nav">
+  <ul>
+    <li><a href="#creative-coding">Creative Coding</a></li>
+    <li><a href="#installation">Installation</a></li>
+    <li><a href="#architecture">Architecture</a></li>
+    <li><a href="#about-me">About Me</a></li>
+  </ul>
+</div>
+<div class="banner">
+  <h2 class="welcome"> </h2>
+  <video class="bg" autoplay loop muted>
+    <source src="./images/banner/banner_seamless.mp4" type="video/mp4">
+  </video>
+  <div class="anmi-wrap">
+    <div class="anmiComp"><span></span></div>
+  </div>
+</div>
+<div class="codingTab" id="creative-coding">
+  <div class="divPattern"><span></span></div>
+  <text>Creative Coding</text>
+</div>
+    <div class="coding-section">
+      <div class="codingDisplay">
+        <div class="display-wrap">
+          <div class="main-image"><a class="imageDisplay" href="./posts/musical-cloud.html"></a></div>
+          <div class="main-text">
+            <div class="text-wrap">
+              <div class="currentInfo">
+                <h2>Musical Cloud</h2>
+                <p class="p1">November, 2020</p><br>
+                <p class="p2">The Musical Cloud will chase the notes detected from the music, absorb them and get the energy to dance! It is a play for meditation, interacting with our internal feelings of peace. </p><br><a href="./posts/musical-cloud.html">[ Read More ]</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="divider">
+        <div class="div1">〈</div>
+        <div class="div2">︿</div>
+      </div>
+      <div class="selector">
+        <div class="selector-wrap"><a class="codingGallery coding01">
+                <div class="displayImage" style="background-image:url(images/articles/coding_01.jpg)">   </div>
+                <div class="articleInfo">
+                  <div class="name">Musical Cloud</div>
+                  <div class="date">November, 2020</div>
+                  <div class="description">The Musical Cloud will chase the notes detected from the music, absorb them and get the energy to dance! It is a play for meditation, interacting with our internal feelings of peace.</div>
+                  <div class="pagelink">./posts/musical-cloud.html</div>
+                </div></a><a class="codingGallery coding02">
+                <div class="displayImage" style="background-image:url(images/articles/coding_02.jpg)">   </div>
+                <div class="articleInfo">
+                  <div class="name">Blue Sun and Black Moon</div>
+                  <div class="date">June, 2021</div>
+                  <div class="description">It is a love story of the Blue Sun and the Black Moon, who wander in the endless universe. The hidden poem will emerge gradually if the pressed mouse hovers on them for a few seconds.</div>
+                  <div class="pagelink">./posts/blue-sun-and-black-moon.html</div>
+                </div></a><a class="codingGallery coding03">
+                <div class="displayImage" style="background-image:url(images/articles/coding_03.jpg)">   </div>
+                <div class="articleInfo">
+                  <div class="name">Feather</div>
+                  <div class="date">October, 2020</div>
+                  <div class="description">Get a piece of randomly-generated feather.</div>
+                  <div class="pagelink">./posts/feather.html</div>
+                </div></a><a class="codingGallery coding04">
+                <div class="displayImage" style="background-image:url(images/articles/coding_04.jpg)">   </div>
+                <div class="articleInfo">
+                  <div class="name">Jellyfish</div>
+                  <div class="date">June, 2021</div>
+                  <div class="description">Get on a deep-sea journey with a happy jellyfish!</div>
+                  <div class="pagelink">./posts/jellyfish.html</div>
+                </div></a><a class="codingGallery coding05">
+                <div class="displayImage" style="background-image:url(images/articles/coding_05.jpg)">   </div>
+                <div class="articleInfo">
+                  <div class="name">Ice Crack</div>
+                  <div class="date">November, 2020</div>
+                  <div class="description">The ice is cracking into beautiful textures. The cracks will appear randomly, or users can click the mouse to manually create a crack.</div>
+                  <div class="pagelink">./posts/ice-crack.html</div>
+                </div></a><a class="codingGallery coding06">
+                <div class="displayImage" style="background-image:url(images/articles/coding_06.jpg)">   </div>
+                <div class="articleInfo">
+                  <div class="name">Sound Domino</div>
+                  <div class="date">April, 2021</div>
+                  <div class="description">The sound beeps emerge randomly in the field, and every unit will grow black once an ambient beep is detected. When a unit reaches its maximum, it will start to spread a series of tone waves, like a Sound Domino.</div>
+                  <div class="pagelink">./posts/sound-domino.html</div>
+                </div></a><a class="codingGallery coding07">
+                <div class="displayImage" style="background-image:url(images/articles/coding_07.jpg)">   </div>
+                <div class="articleInfo">
+                  <div class="name">Drifting</div>
+                  <div class="date">September, 2020</div>
+                  <div class="description">Drop a ship to the turbulent flow, and the ship will drift along the waves.</div>
+                  <div class="pagelink">./posts/drifting.html</div>
+                </div></a><a class="codingGallery coding08">
+                <div class="displayImage" style="background-image:url(images/articles/coding_08.jpg)">   </div>
+                <div class="articleInfo">
+                  <div class="name">Hue Resonance</div>
+                  <div class="date">September, 2020</div>
+                  <div class="description">The machine wants to draw on its own grid. Once a pair of dots is detected to have the same color, they will be linked with a line of the resonated color.</div>
+                  <div class="pagelink">./posts/hue-resonance.html</div>
+                </div></a><a class="codingGallery coding09">
+                <div class="displayImage" style="background-image:url(images/articles/empty.jpg)">   </div>
+                <div class="articleInfo">
+                  <div class="name">None</div>
+                  <div class="date">N/A, ????</div>
+                  <div class="description">Here could be anything.</div>
+                  <div class="pagelink">./posts/empty.html</div>
+                </div></a>
+        </div>
+      </div>
+    </div>
+<div class="installationTab" id="installation">
+  <div class="divPattern"><span></span></div>
+  <text>Installation</text>
+</div>
+    <div class="installation-section">
+      <div class="installationDisplay">
+        <div class="display-wrap">
+          <div class="main-image"><a class="imageDisplay" href="./posts/paralull.html"></a></div>
+          <div class="main-text">
+            <div class="text-wrap">
+              <div class="currentInfo">
+                <h2>Paralull</h2>
+                <p class="p1">2021</p><br>
+                <p class="p2">Paralull is a multi-scale sound installation that tempers city noise into its most comparable nature sound.</p><br><a href="./posts/paralull.html">[ Read More ]</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="divider">
+        <div class="div1">〈</div>
+        <div class="div2">︿</div>
+      </div>
+      <div class="selector">
+        <div class="selector-wrap"><a class="installationGallery installation01">
+                <div class="displayImage" style="background-image:url(images/articles/installation_01.jpg)">   </div>
+                <div class="articleInfo">
+                  <div class="name">Paralull</div>
+                  <div class="date">2021</div>
+                  <div class="description">Paralull is a multi-scale sound installation that tempers city noise into its most comparable nature sound.</div>
+                  <div class="pagelink">./posts/paralull.html</div>
+                </div></a><a class="installationGallery installation02">
+                <div class="displayImage" style="background-image:url(images/articles/installation_02.jpg)">   </div>
+                <div class="articleInfo">
+                  <div class="name">Rubble Bubble</div>
+                  <div class="date">November, 2017</div>
+                  <div class="description">In face of earthquakes, every second counts. RUBBLE BUBBLE is an emergency shelter that can be deployed immediately and effectively in the very aftermath of the calamity, designing to sustain lives not only the moment earthquakes happen but also the next 48 hours and beyond.</div>
+                  <div class="pagelink">./posts/rubble-bubble.html</div>
+                </div></a><a class="installationGallery installation03">
+                <div class="displayImage" style="background-image:url(images/articles/installation_03.jpg)">   </div>
+                <div class="articleInfo">
+                  <div class="name">Flicking</div>
+                  <div class="date">February, 2021</div>
+                  <div class="description">Our body desires to dance to the groove of music, so we think what if inversely, our body movements can generate music. In this project, we wish people to immerse in the musical world without the limitation of physical instrument.</div>
+                  <div class="pagelink">./posts/flicking.html</div>
+                </div></a><a class="installationGallery installation04">
+                <div class="displayImage" style="background-image:url(images/articles/installation_04.jpg)">   </div>
+                <div class="articleInfo">
+                  <div class="name">Wind Shaper</div>
+                  <div class="date">October, 2020</div>
+                  <div class="description">The Wind Shaper, a kinetic sculpture that consists of a machine arm and five huge flags, is choreographed to wave elegantly and generate wind in the “City of Wonders”. To play with the sculpture, a humanoid robot is moving mechanically, in contrast to the ‘novel dancer’, brandishing the soft clothes with its rigid arms. The Wind Shaper reshapes the ambient microclimate with aesthetic dancing, like a vibrant inhabitant in the city. </div>
+                  <div class="pagelink">./posts/wind-shaper.html</div>
+                </div></a><a class="installationGallery installation05">
+                <div class="displayImage" style="background-image:url(images/articles/installation_05.jpg)">   </div>
+                <div class="articleInfo">
+                  <div class="name">Mask for Nature</div>
+                  <div class="date">November, 2016</div>
+                  <div class="description">It is an installation comprised of several inclined view frames for focusing on the upper parts of nature. The view above our eye level is usually ignored, but I found the upper views of this forest, with beautiful lights and shadows, are quite meditative and absorbing for escaping from the dysphoria of the horizon.</div>
+                  <div class="pagelink">./posts/mask-for-nature.html</div>
+                </div></a><a class="installationGallery installation06">
+                <div class="displayImage" style="background-image:url(images/articles/empty.jpg)">   </div>
+                <div class="articleInfo">
+                  <div class="name">None</div>
+                  <div class="date">N/A, ????</div>
+                  <div class="description">Here could be anything.</div>
+                  <div class="pagelink">./posts/empty.html</div>
+                </div></a><a class="installationGallery installation07">
+                <div class="displayImage" style="background-image:url(images/articles/empty.jpg)">   </div>
+                <div class="articleInfo">
+                  <div class="name">None</div>
+                  <div class="date">N/A, ????</div>
+                  <div class="description">Here could be anything.</div>
+                  <div class="pagelink">./posts/empty.html</div>
+                </div></a><a class="installationGallery installation08">
+                <div class="displayImage" style="background-image:url(images/articles/empty.jpg)">   </div>
+                <div class="articleInfo">
+                  <div class="name">None</div>
+                  <div class="date">N/A, ????</div>
+                  <div class="description">Here could be anything.</div>
+                  <div class="pagelink">./posts/empty.html</div>
+                </div></a><a class="installationGallery installation09">
+                <div class="displayImage" style="background-image:url(images/articles/empty.jpg)">   </div>
+                <div class="articleInfo">
+                  <div class="name">None</div>
+                  <div class="date">N/A, ????</div>
+                  <div class="description">Here could be anything.</div>
+                  <div class="pagelink">./posts/empty.html</div>
+                </div></a>
+        </div>
+      </div>
+    </div>
+<div class="architectureTab" id="architecture">
+  <div class="divPattern"><span></span></div>
+  <text>Architecture</text>
+</div>
+    <div class="architecture-section">
+      <div class="architectureDisplay">
+        <div class="display-wrap">
+          <div class="main-image"><a class="imageDisplay" href="./posts/webcastle.html"></a></div>
+          <div class="main-text">
+            <div class="text-wrap">
+              <div class="currentInfo">
+                <h2>WEBCASTle</h2>
+                <p class="p1">April, 2019</p><br>
+                <p class="p2">A debarrassing scheme for an isolated village in city.</p><br><a href="./posts/webcastle.html">[ Read More ]</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="divider">
+        <div class="div1">〈</div>
+        <div class="div2">︿</div>
+      </div>
+      <div class="selector">
+        <div class="selector-wrap"><a class="architectureGallery architecture01">
+                <div class="displayImage" style="background-image:url(images/articles/architecture_01.jpg)">   </div>
+                <div class="articleInfo">
+                  <div class="name">WEBCASTle</div>
+                  <div class="date">April, 2019</div>
+                  <div class="description">A debarrassing scheme for an isolated village in city.</div>
+                  <div class="pagelink">./posts/webcastle.html</div>
+                </div></a><a class="architectureGallery architecture02">
+                <div class="displayImage" style="background-image:url(images/articles/architecture_02.jpg)">   </div>
+                <div class="articleInfo">
+                  <div class="name">Floating Memory</div>
+                  <div class="date">June, 2019</div>
+                  <div class="description">A memorial museum for the burnt Saint Christopher’s.</div>
+                  <div class="pagelink">./posts/floating-memory.html</div>
+                </div></a><a class="architectureGallery architecture03">
+                <div class="displayImage" style="background-image:url(images/articles/architecture_03.jpg)">   </div>
+                <div class="articleInfo">
+                  <div class="name">Streaming Nostalgia</div>
+                  <div class="date">September, 2019</div>
+                  <div class="description">A seaside bath for recalling the lost memory.</div>
+                  <div class="pagelink">./posts/streaming-nostalgia.html</div>
+                </div></a><a class="architectureGallery architecture04">
+                <div class="displayImage" style="background-image:url(images/articles/architecture_04.jpg)">   </div>
+                <div class="articleInfo">
+                  <div class="name">Human-drone Nest</div>
+                  <div class="date">August, 2019</div>
+                  <div class="description">An experimental hotel for the drone-based lifestyle.</div>
+                  <div class="pagelink">./posts/human-drone-nest.html</div>
+                </div></a><a class="architectureGallery architecture05">
+                <div class="displayImage" style="background-image:url(images/articles/empty.jpg)">   </div>
+                <div class="articleInfo">
+                  <div class="name">None</div>
+                  <div class="date">N/A, ????</div>
+                  <div class="description">Here could be anything.</div>
+                  <div class="pagelink">./posts/empty.html</div>
+                </div></a><a class="architectureGallery architecture06">
+                <div class="displayImage" style="background-image:url(images/articles/empty.jpg)">   </div>
+                <div class="articleInfo">
+                  <div class="name">None</div>
+                  <div class="date">N/A, ????</div>
+                  <div class="description">Here could be anything.</div>
+                  <div class="pagelink">./posts/empty.html</div>
+                </div></a><a class="architectureGallery architecture07">
+                <div class="displayImage" style="background-image:url(images/articles/empty.jpg)">   </div>
+                <div class="articleInfo">
+                  <div class="name">None</div>
+                  <div class="date">N/A, ????</div>
+                  <div class="description">Here could be anything.</div>
+                  <div class="pagelink">./posts/empty.html</div>
+                </div></a><a class="architectureGallery architecture08">
+                <div class="displayImage" style="background-image:url(images/articles/empty.jpg)">   </div>
+                <div class="articleInfo">
+                  <div class="name">None</div>
+                  <div class="date">N/A, ????</div>
+                  <div class="description">Here could be anything.</div>
+                  <div class="pagelink">./posts/empty.html</div>
+                </div></a><a class="architectureGallery architecture09">
+                <div class="displayImage" style="background-image:url(images/articles/empty.jpg)">   </div>
+                <div class="articleInfo">
+                  <div class="name">None</div>
+                  <div class="date">N/A, ????</div>
+                  <div class="description">Here could be anything.</div>
+                  <div class="pagelink">./posts/empty.html</div>
+                </div></a>
+        </div>
+      </div>
+    </div>
+<div class="codingTab" id="about-me">
+  <div class="divPattern"><span></span></div>
+  <text>About Me</text>
+</div>
+    <div class="about-wrap">
+      <div class="col-left">
+        <div class="portrait"></div>
+        <div class="info">
+          <h2>Ding Wang</h2>
+          <p>architect / <br> visual & sound designer / <br> creative coder /</p>
+        </div>
+      </div>
+      <div class="divider-mid"></div>
+      <div class="col-right">
+        <div class="education-section">
+          <h3>Education</h3>
+              <div class="education-wrap">
+                <div class="first-line"> 
+                  <div class="uni">University College London</div>
+                  <div class="loc">London, UK</div>
+                </div>
+                <div class="second-line">
+                  <div class="deg">-　Design for Performance and Interaction [ MArch ]</div>
+                  <div class="dur">Sep 2020 ~ Dec 2021</div>
+                </div>
+              </div>
+              <div class="education-wrap">
+                <div class="first-line"> 
+                  <div class="uni">Huazhong University of Science and Technology</div>
+                  <div class="loc">Wuhan, China</div>
+                </div>
+                <div class="second-line">
+                  <div class="deg">-　Architectural Design [ BA ]</div>
+                  <div class="dur">Sep 2015 ~ June 2020</div>
+                </div>
+              </div>
+        </div><br>
+        <div class="skill-section">
+          <h3>Skill</h3>
+              <div class="skill-wrap">
+                <div class="first-line"> 
+                  <div class="type">3D Software</div>
+                  <div class="detail">Rhino, Cinema4D, Revit, Unity, Sketchup, Vray, Lumion, Enscape</div>
+                </div>
+              </div>
+              <div class="skill-wrap">
+                <div class="first-line"> 
+                  <div class="type">2D Software</div>
+                  <div class="detail">Adobe Suits[Photoshop, Illustrator, Indesign, Premiere], AutoCAD</div>
+                </div>
+              </div>
+              <div class="skill-wrap">
+                <div class="first-line"> 
+                  <div class="type">Audio Editting</div>
+                  <div class="detail">Ableton, FL Studio, Max/MSP, Adobe Audition, Audacity</div>
+                </div>
+              </div>
+              <div class="skill-wrap">
+                <div class="first-line"> 
+                  <div class="type">Programming</div>
+                  <div class="detail">TouchDesigner, Grasshopper, JavaScript, C++, Python, Processing, HTML &amp; CSS</div>
+                </div>
+              </div>
+        </div><a class="resume-link" href="./posts/resume.html">[ Full Resume ]</a>
+      </div>
+    </div>
+<div class="contact-wrap">
+  <div class="partA">
+    <div class="mail-wrap">
+      <div class="button mail-icon" href="#"></div>
+      <div class="a mail-text" href="#">wjackied1996@gmail.com</div>
+    </div>
+  </div>
+  <div class="partB">
+    <div class="phone-wrap">
+      <div class="button phone-icon" href="#"></div>
+      <div class="a phone-text" href="#">+44 07529150715</div>
+    </div>
+  </div>
+  <div class="partC">
+    <div class="instagram-wrap">
+      <div class="button instagram-icon" href="#"></div>
+      <div class="a instagram-text" href="#">jackiewddd</div>
+    </div>
+  </div>
+</div>
+  <script type="text/javascript" src="app.bundle.js"></script></body>
+</html>
